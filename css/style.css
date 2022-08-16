@@ -1,0 +1,151 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(-45deg, #ee7752, #f86767, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5{
+    font-weight: 600;
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+hr {
+    width: 50%;
+}
+
+.cflist {
+    font-weight: 700;
+}
+
+.sectionrow {
+    align-items: center;
+}
+
+.foda-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.bullet-foda {
+    font-size: 25px;
+}
+
+.section-foda, .section-header  {
+    padding: 0 15rem;
+
+}
+.foda-row {
+    padding: 3rem 0;
+}
+
+.header-icon {
+    position: absolute;
+    z-index: 99;
+    bottom: 10%;
+    left: 50%;
+    font-size: 40px;
+    color: white;
+    animation: bajar-subir 1s ease infinite;
+}
+
+.fef-logo{
+ width: 300px;
+ margin-bottom: 3rem;
+ margin-left: 1rem;
+}
+.title{
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  display: inline-block;
+}
+.subtitle{
+    margin-top: 2rem;
+}
+.fp-viewing-1, .fp-viewing-3, .fp-viewing-5 {
+    background: linear-gradient(-45deg, #f7b9a6, #f5a0a0, #f7b9a6, #f5a0a0 );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+.fp-viewing-2, .fp-viewing-4, .fp-viewing-6{
+    background: linear-gradient(-45deg, #6fd0f3, #77fbdc, #6fd0f3, #77fbdc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+/*Animaciones*/
+@keyframes bajar-subir {
+    0% {
+        transform: translateY(20px);
+    }
+
+    25% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
